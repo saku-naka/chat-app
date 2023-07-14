@@ -51,6 +51,13 @@
   width: calc(100vw - 300px);
 }
 
+.chat-header {
+  height: 100px;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .header-title {
   color: #333;
   font-size: 24px;
@@ -66,13 +73,6 @@
   border: 1px solid darkred;
   color: darkred;
   padding: 20px;
-}
-
-.chat-header {
-  height: 100px;
-  padding: 0 40px;
-  display: flex;
-  justify-content: space-between;
 }
 
 .messages {
@@ -121,7 +121,7 @@
 .form-input {
   background-color: white;
   display: flex;
-  width: 100%;
+  width: 100%;  
 }
 
 .form-message {
